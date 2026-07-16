@@ -1,0 +1,33 @@
+TOGAF Standard
+┌─────────────────────────────────────────────┐
+│ Business Architecture                       │
+│ Mortgage Process                            │
+│ Customer Journey                            │
+│ Loan Approval                               │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ Application Architecture                    │
+│ Copilot Studio                              │
+│ Power Automate                              │
+│ Azure Functions                             │
+│ Azure OpenAI                                │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ Data Architecture                           │
+│ SQL                                         │
+│ Cosmos DB                                   │
+│ SharePoint                                  │
+│ Azure AI Search                             │
+│ Blob Storage                                │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ Technology Architecture                     │
+│ Azure Kubernetes Service                    │
+│ Azure Functions                             │
+│ API Management                              │
+│ Key Vault                                   │
+│ Entra ID                                    │
+└─────────────────────────────────────────────┘
