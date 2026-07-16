@@ -1,0 +1,27 @@
+               User
+
+                 │
+
+         Customer Agent
+
+                 │
+
+      ┌──────────┼────────────┐
+
+      │          │            │
+
+Loan Agent  Credit Agent  Document Agent
+
+      │          │            │
+
+      └──────────┼────────────┘
+
+          Compliance Agent
+
+                 │
+
+          Decision Agent
+
+                 │
+
+          Final Recommendation
