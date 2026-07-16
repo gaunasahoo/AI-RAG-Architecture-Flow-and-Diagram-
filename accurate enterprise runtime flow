@@ -1,0 +1,43 @@
+                         End Users
+                              │
+                              ▼
+                    Azure Front Door + WAF
+                              │
+                              ▼
+                  Azure API Management (APIM)
+                              │
+                              ▼
+               Azure Functions / AKS (Orchestration)
+                              │
+          ┌───────────────────┼────────────────────┐
+          │                   │                    │
+          ▼                   ▼                    ▼
+    Azure OpenAI        Azure AI Search      Enterprise APIs
+    (LLM Inference)     (Vector Search)      CRM / ERP / SQL
+          ▲                   ▲
+          │                   │
+          │             Vector Index
+          │                   ▲
+          │             Embedding Pipeline
+          │                   ▲
+          │          Document Ingestion
+          │                   ▲
+          └────────── Blob Storage ──────────┘
+
+──────────────────────────────────────────────────────────────
+
+Application Data
+• Cosmos DB (Session State / Chat History)
+• SQL Database (Business Data)
+
+──────────────────────────────────────────────────────────────
+
+Cross-Cutting Services
+• Microsoft Entra ID
+• Managed Identity
+• RBAC
+• Azure Key Vault
+• Private Endpoints
+• Azure Monitor
+• Application Insights
+• Log Analytics
