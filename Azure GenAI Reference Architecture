@@ -1,0 +1,49 @@
+                         ┌─────────────────────────┐
+                         │        End User         │
+                         │ Web | Mobile | Teams    │
+                         └─────────────┬───────────┘
+                                       │
+                                       ▼
+                    ┌────────────────────────────────┐
+                    │       Azure Front Door         │
+                    │ WAF | Load Balancer | CDN      │
+                    └─────────────┬──────────────────┘
+                                  │
+                                  ▼
+                    ┌────────────────────────────────┐
+                    │      API Management (APIM)     │
+                    │ Auth | Routing | Rate Limit    │
+                    └─────────────┬──────────────────┘
+                                  │
+                                  ▼
+                    ┌────────────────────────────────┐
+                    │      Azure Functions / AKS     │
+                    │ Business Logic & Orchestration │
+                    └─────────────┬──────────────────┘
+                                  │
+             ┌────────────────────┼────────────────────┐
+             ▼                    ▼                    ▼
+   Azure OpenAI          Azure AI Search        Azure AI Foundry
+   GPT-4 / GPT-4o        Vector Search          Prompt Flow
+             │                    │
+             └────────────┬───────┘
+                          ▼
+              Retrieval-Augmented Generation (RAG)
+                          │
+                          ▼
+        ┌─────────────────┼──────────────────┐
+        ▼                 ▼                  ▼
+ Azure Blob Storage   Cosmos DB         SQL Database
+ Documents            Chat History      Enterprise Data
+
+──────────────────────────────────────────────────────────────────────
+
+Security & Operations
+
+• Microsoft Entra ID
+• Managed Identity
+• Azure Key Vault
+• Private Endpoints
+• Azure Monitor
+• Application Insights
+• Log Analytics
