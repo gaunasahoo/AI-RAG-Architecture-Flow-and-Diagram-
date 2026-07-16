@@ -1,0 +1,41 @@
+                         ┌─────────────────────────────┐
+                         │          End Users          │
+                         │ Teams | Web | Outlook       │
+                         └─────────────┬───────────────┘
+                                       │
+                                       ▼
+                    ┌──────────────────────────────────┐
+                    │      Microsoft Copilot Studio    │
+                    │                                  │
+                    │ • Topics                         │
+                    │ • Generative AI                  │
+                    │ • Adaptive Cards                 │
+                    │ • Conversation Orchestration     │
+                    └─────────────┬────────────────────┘
+                                  │
+             ┌────────────────────┼────────────────────┐
+             │                    │                    │
+             ▼                    ▼                    ▼
+      Power Automate       Azure OpenAI        Azure AI Search
+      Business Flows       GPT-4 / GPT-4o      RAG Knowledge
+             │                    │                    │
+             └────────────────────┼────────────────────┘
+                                  │
+                                  ▼
+                  Azure Functions / REST APIs
+                                  │
+      ┌──────────────┬──────────────┬──────────────┐
+      ▼              ▼              ▼              ▼
+  Dynamics 365      SAP         SQL/Cosmos DB   SharePoint
+                                  │
+                                  ▼
+                       Enterprise Business Systems
+
+────────────────────────────────────────────────────────────────────
+
+Security & Governance
+• Microsoft Entra ID
+• RBAC
+• Managed Identity
+• Key Vault
+• Monitoring & Logging
